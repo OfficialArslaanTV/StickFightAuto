@@ -13,7 +13,7 @@ running = True
 
 def spammer():
     while running:
-        if clicking:
+        if spamming:
             pyautogui.press('c') # Replace C with your custom stick fight keybind if you have one.
         else:
             cache = ""
