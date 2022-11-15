@@ -26,7 +26,6 @@ def toggle_event(key):
         global spamming
         spamming = not spamming
     if key == EXIT_KEY:
-        global spamming
         spamming = False
         running = False
         exit(0)
